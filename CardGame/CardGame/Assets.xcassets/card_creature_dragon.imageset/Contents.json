@@ -1,14 +1,18 @@
 {
   "images" : [
     {
-      "idiom" : "ipad",
+      "idiom" : "universal",
       "filename" : "card_creature_dragon.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
+      "idiom" : "universal",
       "filename" : "card_creature_dragon@2x.png",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

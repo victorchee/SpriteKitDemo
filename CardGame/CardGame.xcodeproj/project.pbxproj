@@ -66,8 +66,8 @@
 			children = (
 				1FEA63CA203EA689009C2435 /* Sounds */,
 				1FEA63B2203EA5DF009C2435 /* AppDelegate.swift */,
-				1FEA63B8203EA5DF009C2435 /* GameScene.swift */,
 				1FEA63D1203EA718009C2435 /* Card.swift */,
+				1FEA63B8203EA5DF009C2435 /* GameScene.swift */,
 				1FEA63BA203EA5DF009C2435 /* GameViewController.swift */,
 				1FEA63BC203EA5DF009C2435 /* Main.storyboard */,
 				1FEA63BF203EA5DF009C2435 /* Assets.xcassets */,
@@ -303,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H2TUBSY8A;
 				INFOPLIST_FILE = CardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorchee.CardGame;
@@ -317,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H2TUBSY8A;
 				INFOPLIST_FILE = CardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorchee.CardGame;
