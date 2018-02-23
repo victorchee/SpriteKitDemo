@@ -21,6 +21,20 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         physicsWorld.contactDelegate = self
         
+        player = childNode(withName: "player") as? SKSpriteNode
+        listener = player
+        for child in self.children {
+            if child.name == "zombie" {
+                if let child = child as? SKSpriteNode {
+                    let audioNode = SKAudioNode(fileNamed: "fear_moan.wav")
+                    child.addChild(audioNode)
+                    
+                    zombies.append(child)
+                }
+            }
+        }
+        goal = childNode(withName: "goal") as? SKSpriteNode
+        
         updateCamera()
     }
     

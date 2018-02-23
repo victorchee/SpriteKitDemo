@@ -14,7 +14,7 @@ class MenuScene: SKScene {
     init(size: CGSize, didWin: Bool) {
         self.didWin = didWin
         super.init(size: size)
-        scaleMode = .aspectFill
+        scaleMode = .fill
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -39,5 +39,14 @@ class MenuScene: SKScene {
         addChild(label)
         
         run(SKAction.playSoundFileNamed(didWin ? "fear_win.mp3" : "fear_lose.mp3", waitForCompletion: false))
+    }
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard let gameScene = GameScene(fileNamed: "GameScene") else {
+            fatalError("GameScene not found")
+        }
+        let transition = SKTransition.flipVertical(withDuration: 1)
+        gameScene.scaleMode = .fill
+        view?.presentScene(gameScene, transition: transition)
     }
 }
