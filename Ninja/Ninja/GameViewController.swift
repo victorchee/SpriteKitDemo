@@ -8,8 +8,10 @@
 
 import UIKit
 import SpriteKit
+import AVFoundation
 
 class GameViewController: UIViewController {
+    var audioPlayer: AVAudioPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +21,23 @@ class GameViewController: UIViewController {
             view.showsFPS = true
             view.showsNodeCount = true
 
-            if let scene = SKScene(fileNamed: "GameScene") {
+            if let scene = GameScene(fileNamed: "GameScene") {
                 scene.scaleMode = .aspectFill
                 
                 view.presentScene(scene)
+            }
+        }
+        
+        startBackgroundMusic()
+    }
+    
+    private func startBackgroundMusic() {
+        if let path = Bundle.main.url(forResource: "bg", withExtension: "mp3") {
+            audioPlayer = try! AVAudioPlayer(contentsOf: path, fileTypeHint: "mp3")
+            if let player = audioPlayer {
+                player.prepareToPlay()
+                player.numberOfLoops = -1
+                player.play()
             }
         }
     }
