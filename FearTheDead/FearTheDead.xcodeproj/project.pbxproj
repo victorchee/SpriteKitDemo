@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD70115203FDFF0000C7D50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70114203FDFF0000C7D50 /* AppDelegate.swift */; };
+		1FD70117203FDFF0000C7D50 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FD70116203FDFF0000C7D50 /* GameScene.sks */; };
+		1FD7011B203FDFF0000C7D50 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7011A203FDFF0000C7D50 /* GameScene.swift */; };
+		1FD7011D203FDFF0000C7D50 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7011C203FDFF0000C7D50 /* GameViewController.swift */; };
+		1FD70120203FDFF0000C7D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7011E203FDFF0000C7D50 /* Main.storyboard */; };
+		1FD70122203FDFF0000C7D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD70121203FDFF0000C7D50 /* Assets.xcassets */; };
+		1FD70125203FDFF0000C7D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD70123203FDFF0000C7D50 /* LaunchScreen.storyboard */; };
+		1FD70132203FE018000C7D50 /* fear_moan.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7012D203FE018000C7D50 /* fear_moan.wav */; };
+		1FD70133203FE018000C7D50 /* fear_wall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7012E203FE018000C7D50 /* fear_wall.mp3 */; };
+		1FD70134203FE018000C7D50 /* fear_lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7012F203FE018000C7D50 /* fear_lose.mp3 */; };
+		1FD70135203FE018000C7D50 /* fear_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FD70130203FE018000C7D50 /* fear_bg.mp3 */; };
+		1FD70136203FE018000C7D50 /* fear_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FD70131203FE018000C7D50 /* fear_win.mp3 */; };
+		1FD70138203FE23B000C7D50 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD70137203FE23B000C7D50 /* MenuScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FD70111203FDFF0000C7D50 /* FearTheDead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FearTheDead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD70114203FDFF0000C7D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FD70116203FDFF0000C7D50 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1FD7011A203FDFF0000C7D50 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1FD7011C203FDFF0000C7D50 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1FD7011F203FDFF0000C7D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FD70121203FDFF0000C7D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD70124203FDFF0000C7D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FD70126203FDFF0000C7D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD7012D203FE018000C7D50 /* fear_moan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fear_moan.wav; sourceTree = "<group>"; };
+		1FD7012E203FE018000C7D50 /* fear_wall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_wall.mp3; sourceTree = "<group>"; };
+		1FD7012F203FE018000C7D50 /* fear_lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_lose.mp3; sourceTree = "<group>"; };
+		1FD70130203FE018000C7D50 /* fear_bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_bg.mp3; sourceTree = "<group>"; };
+		1FD70131203FE018000C7D50 /* fear_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_win.mp3; sourceTree = "<group>"; };
+		1FD70137203FE23B000C7D50 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD7010E203FDFF0000C7D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FD70108203FDFF0000C7D50 = {
+			isa = PBXGroup;
+			children = (
+				1FD70113203FDFF0000C7D50 /* FearTheDead */,
+				1FD70112203FDFF0000C7D50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD70112203FDFF0000C7D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD70111203FDFF0000C7D50 /* FearTheDead.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD70113203FDFF0000C7D50 /* FearTheDead */ = {
+			isa = PBXGroup;
+			children = (
+				1FD70114203FDFF0000C7D50 /* AppDelegate.swift */,
+				1FD70116203FDFF0000C7D50 /* GameScene.sks */,
+				1FD7011A203FDFF0000C7D50 /* GameScene.swift */,
+				1FD70137203FE23B000C7D50 /* MenuScene.swift */,
+				1FD7011C203FDFF0000C7D50 /* GameViewController.swift */,
+				1FD7012C203FE018000C7D50 /* Sounds */,
+				1FD7011E203FDFF0000C7D50 /* Main.storyboard */,
+				1FD70121203FDFF0000C7D50 /* Assets.xcassets */,
+				1FD70123203FDFF0000C7D50 /* LaunchScreen.storyboard */,
+				1FD70126203FDFF0000C7D50 /* Info.plist */,
+			);
+			path = FearTheDead;
+			sourceTree = "<group>";
+		};
+		1FD7012C203FE018000C7D50 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1FD7012D203FE018000C7D50 /* fear_moan.wav */,
+				1FD7012E203FE018000C7D50 /* fear_wall.mp3 */,
+				1FD7012F203FE018000C7D50 /* fear_lose.mp3 */,
+				1FD70130203FE018000C7D50 /* fear_bg.mp3 */,
+				1FD70131203FE018000C7D50 /* fear_win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FD70110203FDFF0000C7D50 /* FearTheDead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD70129203FDFF0000C7D50 /* Build configuration list for PBXNativeTarget "FearTheDead" */;
+			buildPhases = (
+				1FD7010D203FDFF0000C7D50 /* Sources */,
+				1FD7010E203FDFF0000C7D50 /* Frameworks */,
+				1FD7010F203FDFF0000C7D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FearTheDead;
+			productName = FearTheDead;
+			productReference = 1FD70111203FDFF0000C7D50 /* FearTheDead.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD70109203FDFF0000C7D50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = VIctorChee;
+				TargetAttributes = {
+					1FD70110203FDFF0000C7D50 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FD7010C203FDFF0000C7D50 /* Build configuration list for PBXProject "FearTheDead" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FD70108203FDFF0000C7D50;
+			productRefGroup = 1FD70112203FDFF0000C7D50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD70110203FDFF0000C7D50 /* FearTheDead */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD7010F203FDFF0000C7D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD70120203FDFF0000C7D50 /* Main.storyboard in Resources */,
+				1FD70132203FE018000C7D50 /* fear_moan.wav in Resources */,
+				1FD70136203FE018000C7D50 /* fear_win.mp3 in Resources */,
+				1FD70133203FE018000C7D50 /* fear_wall.mp3 in Resources */,
+				1FD70134203FE018000C7D50 /* fear_lose.mp3 in Resources */,
+				1FD70117203FDFF0000C7D50 /* GameScene.sks in Resources */,
+				1FD70122203FDFF0000C7D50 /* Assets.xcassets in Resources */,
+				1FD70125203FDFF0000C7D50 /* LaunchScreen.storyboard in Resources */,
+				1FD70135203FE018000C7D50 /* fear_bg.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD7010D203FDFF0000C7D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD7011B203FDFF0000C7D50 /* GameScene.swift in Sources */,
+				1FD70138203FE23B000C7D50 /* MenuScene.swift in Sources */,
+				1FD7011D203FDFF0000C7D50 /* GameViewController.swift in Sources */,
+				1FD70115203FDFF0000C7D50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FD7011E203FDFF0000C7D50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD7011F203FDFF0000C7D50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FD70123203FDFF0000C7D50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD70124203FDFF0000C7D50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FD70127203FDFF0000C7D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FD70128203FDFF0000C7D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FD7012A203FDFF0000C7D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FearTheDead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorchee.FearTheDead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FD7012B203FDFF0000C7D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FearTheDead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorchee.FearTheDead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD7010C203FDFF0000C7D50 /* Build configuration list for PBXProject "FearTheDead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD70127203FDFF0000C7D50 /* Debug */,
+				1FD70128203FDFF0000C7D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD70129203FDFF0000C7D50 /* Build configuration list for PBXNativeTarget "FearTheDead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD7012A203FDFF0000C7D50 /* Debug */,
+				1FD7012B203FDFF0000C7D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FD70109203FDFF0000C7D50 /* Project object */;
+}
